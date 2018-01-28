@@ -314,12 +314,14 @@ nav a {
 .sidebar {
 }
 }
-
+*/
 
 @media only screen and (max-width: 768px) {
 
 #masthead {
-
+  position: static;
+  margin: 0 0 0;
+  text-align: center;
 }
 
 #logo {
@@ -331,25 +333,37 @@ nav {
 }
 
 nav a {
+  display: inline-block;
+  text-align: center;
 
+ 
   }
 
 #main-container {
-
+  padding-top: 0px;
+  margin: 10px 10px 10px 10px;
 }
 
 #container {
-
+  width: 100%;
+  max-width: 640px;
+  margin: 0 0;
 
 }
 
 .main-section {
+margin-bottom: 15px;
+max-width: 100%;
+}
+
+.sidebar {;
+  max-width: 100%;
+margin-bottom: 0px;
+float: left;
 
 }
 
-.sidebar {
-
-} */
+} 
 
 
 
